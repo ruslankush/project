@@ -1,0 +1,92 @@
+.reviews {
+  position: relative;
+  padding-top: 2.5rem;
+  padding-bottom: 3.125rem;
+  overflow-x: hidden;
+}
+
+.reviews-top {
+  text-align: center;
+}
+
+.reviews-top h2 {
+  color: #000;
+  font-weight: 400;
+  font-size: 1.875rem;
+}
+
+.reviews-block {
+  padding-top: 1.875rem;
+}
+
+.reviews-slider {
+  margin-left: -0.625rem;
+  margin-right: -0.625rem;
+}
+
+.reviews-slider .item {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.reviews-video {
+  position: relative;
+}
+
+.reviews-video a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.reviews-video .image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  -ms-border-radius: 1.25rem;
+  -o-border-radius: 1.25rem;
+}
+
+.reviews-video .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .reviews {
+    padding-top: 3.125rem;
+    padding-bottom: 6.25rem;
+  }
+  .reviews-block {
+    padding-top: 3.125rem;
+  }
+  .reviews-top h2 {
+    font-size: 3.125rem;
+  }
+  .reviews-video .play {
+    width: initial;
+    height: initial;
+  }
+}
+
+@media (min-width: 860px) {
+  .reviews-slider {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  .reviews-slider .item {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+/*# sourceMappingURL=reviews.css.map */
