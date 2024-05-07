@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAC;EACV,WAAW,EAAE,MAAM;CACtB",
+    "sources": [
+        "../scss/mortage-calc.scss",
+        "../scss/_mixin.scss"
+    ],
+    "names": [],
+    "file": "mortage-calc.css"
+}
