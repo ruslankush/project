@@ -665,7 +665,7 @@
     border: none;
   }
   .right-tb_table table tbody tr:first-child {
-    border: none;
+    border-top: none;
   }
   .right-tb_table table tbody td {
     border-right: 1px solid #D4D8DA;
