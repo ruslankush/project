@@ -128,7 +128,8 @@ a:focus {
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .page-btn:focus {
@@ -941,6 +942,7 @@ header .menu::after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-right: 3.125rem;
 }
 
 .right-back .back svg {
@@ -1877,7 +1879,6 @@ abbr::before, abbr::after {
 }
 
 abbr::before {
-  width: 100%;
   max-width: 205px;
   border-radius: 1.25rem;
   -webkit-border-radius: 1.25rem;
@@ -1886,7 +1887,6 @@ abbr::before {
   -o-border-radius: 1.25rem;
   background-color: #fff;
   content: attr(title);
-  min-width: 205px;
   top: 50%;
   left: auto;
   bottom: auto;
@@ -1897,9 +1897,10 @@ abbr::before {
   -ms-transform: translateX(0) translateY(-50%);
   -o-transform: translateX(0) translateY(-50%);
   color: #162136;
-  padding: 1.625rem 1.75rem;
+  padding: 0.625rem 0.75rem;
   font-weight: 500;
-  font-size: 0.9375rem;
+  font-size: 0.6875rem;
+  line-height: 1.25;
 }
 
 abbr::after {
@@ -2212,6 +2213,7 @@ abbr::after {
   -moz-border-radius: 0.625rem;
   -ms-border-radius: 0.625rem;
   -o-border-radius: 0.625rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-gr input:focus ~ label {
@@ -2219,7 +2221,7 @@ abbr::after {
   visibility: hidden;
 }
 
-.form-gr input .used ~ label {
+.form-gr input.used ~ label {
   opacity: 0;
   visibility: hidden;
 }
@@ -2228,24 +2230,28 @@ abbr::after {
   color: #000;
   font-weight: 500;
   font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-gr input:-ms-input-placeholder {
   color: #000;
   font-weight: 500;
   font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-gr input::-ms-input-placeholder {
   color: #000;
   font-weight: 500;
   font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-gr input::placeholder {
   color: #000;
   font-weight: 500;
   font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-gr label {
@@ -2422,6 +2428,7 @@ abbr::after {
   -moz-transition: all 0.4s ease-in 0s;
   -ms-transition: all 0.4s ease-in 0s;
   -o-transition: all 0.4s ease-in 0s;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-program_gr input:focus {
@@ -2431,6 +2438,7 @@ abbr::after {
 .form-program_gr label {
   color: #162136;
   font-size: 1.0625rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-mortage_fl {
@@ -2465,10 +2473,6 @@ abbr::after {
 .form-mortage_bx abbr {
   background-color: #235060;
   color: #fff;
-}
-
-.form-mortage_bx abbr::before {
-  min-width: 276px;
 }
 
 .form-mortage_bx .ui-slider-horizontal {
@@ -2538,7 +2542,8 @@ abbr::after {
   color: #000;
   font-weight: 500;
   font-size: 1.125rem;
-  height: 46px;
+  height: 35px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-mortage_bx .ui__inp .sldRange {

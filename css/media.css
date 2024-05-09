@@ -402,6 +402,12 @@
     font-size: 1.125rem;
     line-height: 40px;
   }
+  .form-mortage_bx .ui__inp input {
+    height: 46px;
+  }
+  .form-mortage_bx abbr::before {
+    min-width: 276px;
+  }
   .form-mortage_box {
     padding-left: 2.75rem;
     padding-right: 2.75rem;
@@ -523,6 +529,7 @@
             flex: auto;
     max-width: auto;
     padding-left: 3.125rem;
+    padding-right: 0;
   }
   .right-back .back-span {
     display: none;
@@ -542,17 +549,17 @@
             flex: 0 0 60%;
     max-width: 60%;
   }
-  .right-meneg_item .bx {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 30%;
-            flex: 0 0 30%;
-    max-width: 30%;
-  }
   .right-meneg_item .bx:first-child {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 65%;
             flex: 0 0 65%;
     max-width: 65%;
+  }
+  .right-meneg_item .bx:last-child {
+    -webkit-box-flex: initial;
+        -ms-flex: initial;
+            flex: initial;
+    max-width: initial;
   }
   .right-meneg_gr {
     -webkit-box-orient: horizontal;
@@ -586,6 +593,11 @@
     bottom: 1.875rem;
     right: auto;
     top: auto;
+    font-size: 0.9375rem;
+    padding: 1.625rem 1.75rem;
+    min-width: 205px;
+    max-width: 205px;
+    width: 100%;
   }
   abbr::after {
     border-left: 10px solid transparent;
