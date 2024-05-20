@@ -7,311 +7,2034 @@
 		<meta name="theme-color" content="#000">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-		<link rel="stylesheet" href="css/entry.css">
-
-		<!-- main-style -->
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/popup.css">
+		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/slick.css">
 		<link rel="stylesheet" href="css/slick-theme.css">
 		<link rel="stylesheet" href="css/media.css">
 	</head>
 	<body>
 
-		<div class="page d-flex flex-column">
-			
-			<main class="main flex-fill">			
-				
-				<div class="entry">
-
-					<div class="image">
-						<img src="img/img.jpg" alt="фон" class="mw-100 d-block">
+		<div class="m-menu">
+			<div class="m-menu_overflow"></div>
+			<!-- /.m-menu_overflow -->
+			<div class="m-menu_container">
+				<div class="m-menu_head">
+					<div class="d-flex flex-wrap align-items-center justify-content-between">
+						<div class="bx">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="" class="mw-100 d-block">
+							</a>
+						</div>
+						<div class="bx">
+							<a href="#" class="m-menu_close"></a>
+							<!-- /.m-menu_close -->
+						</div>
 					</div>
-
-					<div class="entry-box">
-						<div class="entry-item active">
-							<div class="entry-box_top">
-								<a href="#" class="logo">
-									<img src="img/logo.svg" alt="logo" class="mw-100 d-block">
-								</a>
-								<div class="desc">
-									Портал для застройщиков
-								</div>
-							</div>
-							<!-- /.entry-box_top -->
-	
-							<div class="entry-box_flex">
-								<div class="bx">
-									<div class="ttl">
-										Вход в портал
-									</div>
-									<form action="" class="form-entry">
-										<div class="form-entry_gr">
-											<div class="form-gr">
-												<input type="text" class="js-used">
-												<label>
-													Логин
-												</label>
-											</div>
-											<!-- /.form-gr -->
-										</div>
-										<!-- /.form-entry_gr -->
-										<div class="form-entry_gr">
-											<div class="form-gr">
-												<input type="password" class="js-used">
-												<label>
-													Пароль
-												</label>
-											</div>
-											<!-- /.form-gr -->
-										</div>
-										<!-- /.form-entry_gr -->
-										<div class="form-entry_gr">
-											<div class="checked">
-												<input type="checkbox" id="ch" checked>
-												<label for="ch">
-													Запомнить данные
-													<span></span>
-												</label>
-											</div>
-										</div>
-										<!-- /.form-entry_gr -->
-										<div class="form-entry_btn">
-											<button class="page-btn page-btn_curr" type="submit">
-												<span>
-													Войти
-												</span>
-											</button>
-										</div>
-										<!-- /.form-entry_btn -->
-									</form>
-									<!-- /.form-entry -->
-									<div class="entry-box_link">
-										<a href="#" class="link-pass">
-											Забыли пароль
-										</a>
-										<a href="#" class="link-reg">
-											Подать заявку для регистрации
-										</a>
-									</div>
-									<!-- /.entry-box_link -->
-								</div>
-							</div>
-							<!-- /.entry-box_flex -->
-						</div>
-						<!-- /.entry-item -->
-
-						<div class="entry-item">
-							<div class="entry-box_top">
-								<a href="#" class="link-back">
-									<div class="icon">
-										<svg name="link-back-arr_icon" width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M5.5557 0.143855L5.85256 0.438663C5.94527 0.531444 5.99634 0.654883 5.99634 0.786811C5.99634 0.918666 5.94527 1.04225 5.85256 1.13503L2.48946 4.49799L5.85629 7.86482C5.949 7.95745 6 8.08104 6 8.2129C6 8.34475 5.949 8.46841 5.85629 8.56112L5.56126 8.856C5.36941 9.048 5.05689 9.048 4.86504 8.856L0.842008 4.84738C0.749373 4.75475 0.684104 4.63131 0.684104 4.49828L0.684104 4.49674C0.684104 4.36482 0.749446 4.24138 0.842008 4.14874L4.85414 0.143855C4.94677 0.051074 5.07394 0.000146842 5.2058 -2.08726e-08C5.33773 -1.74053e-08 5.46314 0.051074 5.5557 0.143855Z"/>
-										</svg>
-									</div>
-									Перейти обратно
-								</a>
-							</div>
-							<!-- /.entry-box_top -->
-	
-							<div class="entry-box_flex">
-								<div class="bx">
-									<div class="ttl">
-										Заявка на регистрацию
-									</div>
-									<form action="" class="form-reg">
-										<div class="form-reg_gr">
-											<div class="form-gr">
-												<input type="text" class="js-used">
-												<label>
-													Имя<sup>*</sup>	
-												</label>
-											</div>
-											<!-- /.form-gr -->
-										</div>
-										<!-- /.form-reg_gr -->
-										<div class="form-reg_gr">
-											<div class="form-gr">
-												<input type="text" class="js-used">
-												<label>
-													+7&nbsp;(___)&nbsp;___-__-__<sup>*</sup>
-												</label>
-											</div>
-											<!-- /.form-gr -->
-										</div>
-										<!-- /.form-reg_gr -->
-										<div class="form-reg_gr">
-											<div class="form-gr">
-												<input type="text" class="js-used">
-												<label>
-													ИНН компании<sup>*</sup>
-												</label>
-											</div>
-											<!-- /.form-gr -->
-										</div>
-										<!-- /.form-reg_gr -->
-										<div class="form-reg_gr">
-											<div class="form-gr">
-												<input type="text" class="js-used">
-												<label>
-													E-mail<sup>*</sup>
-												</label>
-											</div>
-											<!-- /.form-gr -->
-										</div>
-										<!-- /.form-reg_gr -->
-										<div class="form-reg_btn">
-											<button class="page-btn page-btn_curr" type="submit">
-												<span>
-													Отправить
-												</span>
-											</button>
-										</div>
-										<!-- /.form-entry_btn -->
-										<div class="form-personal">
-											Нажимая на кнопку отправить вы соглашаетесь на <a href="#">обработку персональных данных</a>
-										</div>
-									</form>
-									<!-- /.form-entry -->
-									
-								</div>
-							</div>
-							<!-- /.entry-box_flex -->
-						</div>
-						<!-- /.entry-item -->
-
-						<div class="entry-item">
-							<div class="entry-box_top">
-								<a href="#" class="link-back">
-									<div class="icon">
-										<svg name="link-back-arr_icon" width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M5.5557 0.143855L5.85256 0.438663C5.94527 0.531444 5.99634 0.654883 5.99634 0.786811C5.99634 0.918666 5.94527 1.04225 5.85256 1.13503L2.48946 4.49799L5.85629 7.86482C5.949 7.95745 6 8.08104 6 8.2129C6 8.34475 5.949 8.46841 5.85629 8.56112L5.56126 8.856C5.36941 9.048 5.05689 9.048 4.86504 8.856L0.842008 4.84738C0.749373 4.75475 0.684104 4.63131 0.684104 4.49828L0.684104 4.49674C0.684104 4.36482 0.749446 4.24138 0.842008 4.14874L4.85414 0.143855C4.94677 0.051074 5.07394 0.000146842 5.2058 -2.08726e-08C5.33773 -1.74053e-08 5.46314 0.051074 5.5557 0.143855Z"/>
-										</svg>
-									</div>
-									Перейти обратно
-								</a>
-							</div>
-							<!-- /.entry-box_top -->
-	
-							<div class="entry-box_flex">
-								<div class="bx">
-									<div class="ttl ttl-l">
-										Восстановление пароля
-									</div>
-									<div class="desc desc-l">
-										Введите номер телефона, который указали при регистрации 
-									</div>
-									<form action="" class="form-pass">
-										
-										<div class="form-pass_gr">
-											<div class="form-gr">
-												<input type="text" class="js-used">
-												<label>
-													+7&nbsp;(___)&nbsp;___-__-__
-												</label>
-											</div>
-											<!-- /.form-gr -->
-										</div>
-										<!-- /.form-pass_gr -->
-										
-										<div class="form-pass_btn">
-											<button class="page-btn page-btn_curr" type="submit">
-												<span>
-													Отправить
-												</span>
-											</button>
-										</div>
-										<!-- /.form-pass_btn -->
-									</form>
-									<!-- /.form-pass -->
-									
-								</div>
-							</div>
-							<!-- /.entry-box_flex -->
-						</div>
-						<!-- /.entry-item -->
-
-						<div class="entry-item">
-							<div class="entry-box_top">
-								<a href="#" class="link-back">
-									<div class="icon">
-										<svg name="link-back-arr_icon" width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M5.5557 0.143855L5.85256 0.438663C5.94527 0.531444 5.99634 0.654883 5.99634 0.786811C5.99634 0.918666 5.94527 1.04225 5.85256 1.13503L2.48946 4.49799L5.85629 7.86482C5.949 7.95745 6 8.08104 6 8.2129C6 8.34475 5.949 8.46841 5.85629 8.56112L5.56126 8.856C5.36941 9.048 5.05689 9.048 4.86504 8.856L0.842008 4.84738C0.749373 4.75475 0.684104 4.63131 0.684104 4.49828L0.684104 4.49674C0.684104 4.36482 0.749446 4.24138 0.842008 4.14874L4.85414 0.143855C4.94677 0.051074 5.07394 0.000146842 5.2058 -2.08726e-08C5.33773 -1.74053e-08 5.46314 0.051074 5.5557 0.143855Z"/>
-										</svg>
-									</div>
-									Перейти обратно
-								</a>
-							</div>
-							<!-- /.entry-box_top -->
-	
-							<div class="entry-box_flex">
-								<div class="bx">
-									<div class="ttl ttl-l">
-										Восстановление пароля
-									</div>
-									<div class="desc desc-l">
-										Мы отправили SMS с паролем на номер <a href="#" class="tel">
-											8&nbsp;(800)&nbsp;100-40-10
-										</a>
-									</div>
-									
-									<div class="btn">
-										<a href="#" class="page-btn page-btn_curr">
-											<span>
-												Вернуться к авторизации
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>
-							<!-- /.entry-box_flex -->
-						</div>
-						<!-- /.entry-item -->
-
-						<div class="entry-item">
-							<div class="entry-box_top">
-								<a href="#" class="link-back">
-									<div class="icon">
-										<svg name="link-back-arr_icon" width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M5.5557 0.143855L5.85256 0.438663C5.94527 0.531444 5.99634 0.654883 5.99634 0.786811C5.99634 0.918666 5.94527 1.04225 5.85256 1.13503L2.48946 4.49799L5.85629 7.86482C5.949 7.95745 6 8.08104 6 8.2129C6 8.34475 5.949 8.46841 5.85629 8.56112L5.56126 8.856C5.36941 9.048 5.05689 9.048 4.86504 8.856L0.842008 4.84738C0.749373 4.75475 0.684104 4.63131 0.684104 4.49828L0.684104 4.49674C0.684104 4.36482 0.749446 4.24138 0.842008 4.14874L4.85414 0.143855C4.94677 0.051074 5.07394 0.000146842 5.2058 -2.08726e-08C5.33773 -1.74053e-08 5.46314 0.051074 5.5557 0.143855Z"/>
-										</svg>
-									</div>
-									Перейти обратно
-								</a>
-							</div>
-							<!-- /.entry-box_top -->
-	
-							<div class="entry-box_flex">
-								<div class="bx">
-									<div class="ttl">
-										Заявка успешно отправлена
-									</div>
-									<div class="info">
-										В течении дня с Вами свяжется специалист ЦИК, подтвердить регистрацию и вы получите демо-доступ к полному функционалу
-									</div>
-									
-									<div class="btn">
-										<a href="#" class="page-btn page-btn_curr">
-											<span>
-												О портале
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>
-							<!-- /.entry-box_flex -->
-						</div>
-						<!-- /.entry-item -->
-					</div>
-					<!-- /.entry-box -->
-
 				</div>
-				<!-- /.entry -->
+				<!-- /.m-menu_head -->
+				<div class="m-menu_body">
+					<div class="m-menu_nav">
+						<ul>
+							<li><a href="#">COMPANY</a></li>
+							<li><a href="#">FEEDBACK</a></li>
+							<li><a href="#">PROGRAM BENEFITS</a></li>
+							<li><a href="#">OFFERED FIELDS</a></li>
+							<li><a href="#">ADMISSION</a></li>
+							<li><a href="#">CONTACTS</a></li>
+						</ul>
+					</div>
+					<!-- /.m-menu_nav -->
 
+					<div class="m-menu_bottom">
+						<div class="language">
+							<a href="#" class="lang active">
+								En
+							</a>
+							<a href="#" class="lang">
+								Fr
+							</a>
+							<a href="#" class="lang">
+								Es
+							</a>
+							<a href="#" class="lang">
+								Pt
+							</a>
+							<a href="#" class="lang">
+								اللغة
+							</a>
+						</div>
+						<a href="#" class="page__btn page__btn--main">
+							<span>
+								Join
+							</span>
+						</a>
+					</div>
+					<!-- /.m-menu_bottom -->
+				</div>
+				<!-- /.m-menu_body -->
+			</div>
+			<!-- /.m-menu_container -->
+		</div>
+		<!-- /.m-menu -->
+
+		<div class="page d-flex flex-column">
+			<header class="header">
+				<div class="header_top">
+					<div class="page__wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="" class="mw-100 d-block">
+						</a>
+					</div>
+				</div>
+				<!-- /.header_top -->
+				<div class="header_fix">
+					<div class="page__wrap">
+						<div class="header_fix-block">
+							<div class="d-flex flex-wrap align-items-center justify-content-between">
+								<a href="#" class="logo">
+									<img src="img/logo.svg" alt="" class="mw-100 d-block">
+								</a>
+								<div class="header_nav">
+									<ul>
+										<li><a href="#">Company</a></li>
+										<li><a href="#">Feedback</a></li>
+										<li><a href="#">Program benefits</a></li>
+										<li><a href="#">Offered fields</a></li>
+										<li><a href="#">Admission</a></li>
+										<li><a href="#">Contacts</a></li>
+									</ul>
+								</div>
+								<!-- /.header_nav -->
+								<div class="bx">
+									<a href="#" class="lang active">
+										En
+									</a>
+									<a href="#" class="page__btn page__btn--main">
+										<span>
+											Join
+										</span>
+									</a>
+									<a href="#" class="header_burger">
+										<span></span>
+									</a>
+									<!-- /.header_burger -->
+								</div>
+							</div>
+						</div>
+						<!-- /.header_fix-block -->
+					</div>
+				</div>
+				<!-- /.header_fix -->
+			</header>
+			<!-- /.header -->
+			
+			<main class="main flex-fill">
+				
+				<div class="main_ban">
+					<div class="image js-ban">
+						<img src="img/ban.jpg" alt="" class="mw-100 d-block">
+					</div>
+					<div class="main_ban-bx">
+						<div class="page__wrap">
+							<div class="language">
+								<a href="#" class="lang active">
+									En
+								</a>
+								<a href="#" class="lang">
+									Fr
+								</a>
+								<a href="#" class="lang">
+									Es
+								</a>
+								<a href="#" class="lang">
+									Pt
+								</a>
+								<a href="#" class="lang">
+									اللغة
+								</a>
+							</div>
+							<div class="ttl">
+								ALABUGA START
+							</div>
+							<div class="subttl">
+								Relocation program to Russia for work experience
+							</div>
+							<a href="#" class="page__btn page__btn--curr">
+								<span>
+									Join
+								</span>
+							</a>
+						</div>
+					</div>
+					<!-- /.main_ban-bx -->
+				</div>
+				<!-- /.main_ban -->
+
+				<div class="main-zone">
+					<div class="page__wrap">
+						<h2>
+							<i>The most successful in Russia</i> special economic zone &laquo;Alabuga&raquo; attracts investors with a number of doubtless advantages.
+						</h2>
+
+						<div class="text">
+							<p>
+								Companies in &laquo;Alabuga&raquo; are exempted from paying property, land and transport taxes, income tax is only 2%. Under the current free customs zone regime, imported equipment used on the territory of &laquo;Alabuga&raquo; is exempted from customs duties and VAT.
+							</p>
+						</div>
+
+						<div class="main-zone_block">
+							<h3>
+								&laquo;ALABUGA&raquo; SEZ KEY INDICATORS
+							</h3>
+
+							<div class="main-zone_gr">
+								<div class="d-flex flex-wrap">
+									<div class="bx">
+										<div class="cart-group">
+											<div class="numb">
+												67
+											</div>
+											<div class="txt">
+												Total amount of residents
+											</div>
+										</div>
+									</div>
+									<div class="bx">
+										<div class="cart-group">
+											<div class="numb">
+												33
+											</div>
+											<div class="txt">
+												Functioning manufacture enterprises
+											</div>
+										</div>
+									</div>
+									<div class="bx">
+										<div class="cart-group">
+											<div class="numb">
+												<i>&#65284;</i>3.8<i>bln</i>
+											</div>
+											<div class="txt">
+												Actually invested by residents
+											</div>
+										</div>
+									</div>
+									<div class="bx">
+										<div class="cart-group">
+											<div class="numb">
+												<i>&#65284;</i>1.8<i>bln</i>
+											</div>
+											<div class="txt">
+												Residents’ revenue as of January 10, 2023
+											</div>
+										</div>
+									</div>
+									<div class="bx">
+										<div class="cart-group">
+											<div class="numb">
+												10&nbsp;140
+											</div>
+											<div class="txt">
+												Employees
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /.main-zone_gr -->
+
+							<div class="main-zone_bottom">
+								<a href="#">
+									More information
+								</a> about &laquo;Alabuga&raquo; SEZ
+							</div>
+							<!-- /.main-zone_bottom -->
+						</div>
+						<!-- /.main-zone_block -->
+					</div>
+				</div>
+				<!-- /.main-zone -->
+
+				<div class="main-plan">
+					<div class="main-plan_item">
+						<div class="image js-ban">
+							<img src="img/ban2.jpg" alt="" class="mw-100 d-block">
+						</div>
+						<div class="main-plan_block">
+							<div class="page__wrap">
+								<div class="d-flex flex-wrap justify-content-between">
+									<div class="bx">
+										<h2>
+											22 people from Uganda, Ethiopia, Nigeria, Tanzania, Pakistan,  zerbaijan and Kyrgyzstan were employed in 2022 under the Alabuga start program.
+										</h2>
+									</div>
+									<div class="bx">
+										<div class="main-plan_cart">
+											<div class="ttl">
+												2023 recruitment plan:
+											</div>
+											<div class="list">
+												<ul>
+													<li>
+														10 specialties
+													</li>
+													<li>
+														86 countries 
+													</li>
+													<li>
+														2914 foreign trainees
+													</li>
+												</ul>
+											</div>
+											<a href="#" class="page__btn page__btn--main">
+												<span>
+													Join
+												</span>
+											</a>
+										</div>
+										<!-- /.main-plan_cart -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /.main-plan_block -->
+					</div>
+					<!-- /.main-plan_item -->
+
+					<div class="main-plan_bottom">
+						<div class="main-plan_cart">
+							<div class="ttl">
+								2023 recruitment plan:
+							</div>
+							<div class="list">
+								<ul>
+									<li>
+										10 specialties
+									</li>
+									<li>
+										86 countries 
+									</li>
+									<li>
+										2914 foreign trainees
+									</li>
+								</ul>
+							</div>
+							<a href="#" class="page__btn page__btn--main">
+								<span>
+									Join
+								</span>
+							</a>
+						</div>
+						<!-- /.main-plan_cart -->
+					</div>
+					<!-- /.main-plan_bottom -->
+				</div>
+				<!-- /.main-plan -->
+
+				<div class="main-feedback">
+					<div class="page__wrap">
+						<div class="main-feedback_top">
+							<h2>
+								<i>Feedback</i> from our participants
+							</h2>
+						</div>
+						<!-- /.main-feedback_top -->
+						
+						<div class="main-feedback_block">
+							<div class="main-feedback_slider js-main-feedback_slider">
+								<div class="item">
+									<div class="main-feedback_cart">
+										<div class="top">
+											<div class="info">
+												I love how the Program impacts the youth, providing guaranteed employment and the opportunity to apply to Alabuga Polytech after the Program.
+											</div>
+											<div class="info">
+												My Russian teacher makes it easy to learn Russian and I can see noticeable changes. Here I am learning a new culture and getting deeper in the tech world.
+											</div>
+										</div>
+
+										<div class="group">
+											<div class="img">
+												<img src="img/jane.png" alt="" class="mw-100 d-block">
+											</div>
+											<div class="desc">
+												<div class="name">
+													Jane
+												</div>
+												<div class="city">
+													Nigeria
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- /.main-feedback_cart -->
+								</div>
+								<div class="item">
+									<div class="main-feedback_cart">
+										<div class="top">
+											<div class="info">
+												My interest in this Program comes from the passion to be a great business lady in future and an asset to Alabuga Special Economic Zone during my work.
+											</div>
+											<div class="info">
+												I believe that future participants should use every opportunity to strive for excellence. In addition to that, they should remember that opportunities come along with experience.
+											</div>
+										</div>
+
+										<div class="group">
+											<div class="img">
+												<img src="img/avon.png" alt="" class="mw-100 d-block">
+											</div>
+											<div class="desc">
+												<div class="name">
+													Avon
+												</div>
+												<div class="city">
+													Uganda
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- /.main-feedback_cart -->
+								</div>
+								<div class="item">
+									<div class="main-feedback_cart">
+										<div class="top">
+											<div class="info">
+												I love how the Program impacts the youth, providing guaranteed employment and the opportunity to apply to Alabuga Polytech after the Program.
+											</div>
+											<div class="info">
+												My Russian teacher makes it easy to learn Russian and I can see noticeable changes. Here I am learning a new culture and getting deeper in the tech world.
+											</div>
+										</div>
+
+										<div class="group">
+											<div class="img">
+												<img src="img/jane.png" alt="" class="mw-100 d-block">
+											</div>
+											<div class="desc">
+												<div class="name">
+													Jane
+												</div>
+												<div class="city">
+													Nigeria
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- /.main-feedback_cart -->
+								</div>
+							</div>
+							<!-- /.main-feedback_slider -->
+						</div>
+						<!-- /.main-feedback_block -->
+
+						<div class="main-feedback_bottom js-main-feedback_arr">
+							<div class="counter">
+								<div class="counter_numb">
+									1/3
+								</div>
+								<!-- /.counter_numb -->
+							</div>
+							<!-- /.counter -->
+						</div>
+						<!-- /.main-feedback_bottom -->
+
+					</div>
+				</div>
+				<!-- /.main-feedback -->
+
+				<div class="main-start">
+					<div class="page__wrap">
+						<h2>
+							Alabuga start is a unique opportunity for young and talented people from all over the world to <i>build a career</i> and <i>change their life</i> for the better.
+						</h2>
+
+						<div class="main-start_block">
+							<div class="main-start_bx">
+								<div class="d-flex flex-wrap justify-content-between">
+									<div class="bx">
+										<div class="ttl">
+											This year we offer employment in the following fields:
+										</div>
+										<div class="list">
+											<ul>
+												<li>
+													Logistics
+												</li>
+												<li>
+													Tower crane operator
+												</li>
+												<li>
+													Welding engineering
+												</li>
+												<li>
+													Heavy equipment operator
+												</li>
+												<li>
+													Service&hospitality
+												</li>
+												<li>
+													Catering industry
+												</li>
+												<li>
+													Front desk services
+												</li>
+												<li>
+													Tiling work
+												</li>
+												<li>
+													Installation work
+												</li>
+												<li>
+													Production operator
+												</li>
+											</ul>
+										</div>
+										<a href="#" class="page__btn page__btn--curr">
+											<span>
+												apply
+											</span>
+										</a>
+									</div>
+									<div class="bx">
+										<div class="image">
+											<img src="img/spec.png" alt="" class="mw-100 d-block">
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /.main-start_bx -->
+						</div>
+						<!-- /.main-start_block -->
+
+						<div class="main-start_desc">
+							Become a world-standing <i>professional</i>!
+						</div>
+						<!-- /.main-start_desc -->
+					</div>
+				</div>
+				<!-- /.main-start -->
+
+				<div class="main-program">
+					<div class="page__wrap">
+						<div class="d-flex flex-wrap">
+							<div class="bx">
+								<div class="image js-ban">
+									<img src="img/img.jpg" alt="" class="mw-100 d-block">
+								</div>
+							</div>
+							<div class="bx">
+								<div class="main-program_cart">
+									<h2>
+										Program benefits
+									</h2>
+									<div class="list">
+										<ul>
+											<li>
+												<div class="icon">
+													<img src="img/icon/graduation-cap_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												Professional training
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/bubble-chat_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												Russian language lessons
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/house-key_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												Preferential accommodation in comfortable <a href="#">hostels</a>
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/wallet_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												40&nbsp;000 rub initial monthly allowance
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/plane_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												Paid flight to Russia
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/treatment_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												Voluntary health insurance
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/transfer_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												Transfer
+											</li>
+										</ul>
+									</div>
+									<a href="#" class="page__btn page__btn--main">
+										<span>
+											apply
+										</span>
+									</a>
+								</div>
+								<!-- /.main-program_cart -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.main-program -->
+
+				<div class="main-fields">
+					<div class="page__wrap">
+						<h2>
+							OFFERED <i>FIELDS</i>
+						</h2>
+
+						<div class="main-fields_block">
+							<div class="d-flex flex-wrap justify-content-center">
+								<div class="bx">
+									<div class="cart-fields">
+										<div class="cart-fields_top">
+											<div class="name">
+												Logistics
+											</div>
+											<!-- /.name -->
+											<div class="btn">
+												<a href="#" class="page__btn page__btn--curr">
+													<span>
+														More
+													</span>
+												</a>
+											</div>
+										</div>	
+										<!-- /.cart-fields_top -->
+										<div class="cart-fields_block">
+											<div class="group">
+												<div class="subname">
+													Program duration:
+												</div>
+												<div class="desc">
+													4 years
+												</div>
+											</div>
+											<div class="group">
+												<div class="subname">
+													Initial monthly allowance:
+												</div>
+												<div class="desc">
+													40 000 rub
+												</div>
+											</div>
+										</div>
+										<div class="cart-fields_btn">
+											<a href="#" class="page__btn page__btn--curr">
+												<span>
+													More
+												</span>
+											</a>
+										</div>
+										<!-- /.cart-fields_btn -->
+									</div>
+									<!-- /.cart-fields -->
+								</div>
+								<!-- /.bx -->
+								<div class="bx">
+									<div class="cart-fields">
+										<div class="cart-fields_top">
+											<div class="name">
+												Tower crane operator
+											</div>
+											<!-- /.name -->
+											<div class="btn">
+												<a href="#" class="page__btn page__btn--curr">
+													<span>
+														More
+													</span>
+												</a>
+											</div>
+										</div>
+										<!-- /.cart-fields_top -->
+										
+										<div class="cart-fields_block">
+											<div class="group">
+												<div class="subname">
+													Program duration:
+												</div>
+												<div class="desc">
+													4 years
+												</div>
+											</div>
+											<div class="group">
+												<div class="subname">
+													Initial monthly allowance:
+												</div>
+												<div class="desc">
+													40 000 rub
+												</div>
+											</div>
+										</div>
+										<div class="cart-fields_btn">
+											<a href="#" class="page__btn page__btn--curr">
+												<span>
+													More
+												</span>
+											</a>
+										</div>
+										<!-- /.cart-fields_btn -->
+									</div>
+									<!-- /.cart-fields -->
+								</div>
+								<!-- /.bx -->
+								<div class="bx">
+									<div class="cart-fields">
+										<div class="cart-fields_top">
+											<div class="name">
+												Welding engineering
+											</div>
+											<!-- /.name -->
+											<div class="btn">
+												<a href="#" class="page__btn page__btn--curr">
+													<span>
+														More
+													</span>
+												</a>
+											</div>
+										</div>
+										<!-- /.cart-fields_top -->
+										
+										<div class="cart-fields_block">
+											<div class="group">
+												<div class="subname">
+													Program duration:
+												</div>
+												<div class="desc">
+													4 years
+												</div>
+											</div>
+											<div class="group">
+												<div class="subname">
+													Initial monthly allowance:
+												</div>
+												<div class="desc">
+													40 000 rub
+												</div>
+											</div>
+										</div>
+										<div class="cart-fields_btn">
+											<a href="#" class="page__btn page__btn--curr">
+												<span>
+													More
+												</span>
+											</a>
+										</div>
+										<!-- /.cart-fields_btn -->
+									</div>
+									<!-- /.cart-fields -->
+								</div>
+								<!-- /.bx -->
+								<div class="bx">
+									<div class="cart-fields">
+										<div class="cart-fields_top">
+											<div class="name">
+												Heavy equipment operator
+											</div>
+											<!-- /.name -->
+											<div class="btn">
+												<a href="#" class="page__btn page__btn--curr">
+													<span>
+														More
+													</span>
+												</a>
+											</div>
+										</div>
+										<!-- /.cart-fields_top -->
+										
+										<div class="cart-fields_block">
+											<div class="group">
+												<div class="subname">
+													Program duration:
+												</div>
+												<div class="desc">
+													4 years
+												</div>
+											</div>
+											<div class="group">
+												<div class="subname">
+													Initial monthly allowance:
+												</div>
+												<div class="desc">
+													40 000 rub
+												</div>
+											</div>
+										</div>
+										<div class="cart-fields_btn">
+											<a href="#" class="page__btn page__btn--curr">
+												<span>
+													More
+												</span>
+											</a>
+										</div>
+										<!-- /.cart-fields_btn -->
+									</div>
+									<!-- /.cart-fields -->
+								</div>
+								<!-- /.bx -->
+								<div class="bx">
+									<div class="cart-fields">
+										<div class="cart-fields_top">
+											<div class="name">
+												Service &hospitality
+											</div>
+											<!-- /.name -->
+											<div class="btn">
+												<a href="#" class="page__btn page__btn--curr">
+													<span>
+														More
+													</span>
+												</a>
+											</div>
+										</div>
+										<!-- /.cart-fields_top -->
+										
+										<div class="cart-fields_block">
+											<div class="group">
+												<div class="subname">
+													Program duration:
+												</div>
+												<div class="desc">
+													2 years
+												</div>
+											</div>
+											<div class="group">
+												<div class="subname">
+													Initial monthly allowance:
+												</div>
+												<div class="desc">
+													40 000 rub
+												</div>
+											</div>
+										</div>
+										<div class="cart-fields_btn">
+											<a href="#" class="page__btn page__btn--curr">
+												<span>
+													More
+												</span>
+											</a>
+										</div>
+										<!-- /.cart-fields_btn -->
+									</div>
+									<!-- /.cart-fields -->
+								</div>
+								<!-- /.bx -->
+								<div class="bx">
+									<div class="cart-fields">
+										<div class="cart-fields_top">
+											<div class="name">
+												Catering industry (food service)
+											</div>
+											<!-- /.name -->
+											<div class="btn">
+												<a href="#" class="page__btn page__btn--curr">
+													<span>
+														More
+													</span>
+												</a>
+											</div>
+										</div>
+										<!-- /.cart-fields_top -->
+										
+										<div class="cart-fields_block">
+											<div class="group">
+												<div class="subname">
+													Program duration:
+												</div>
+												<div class="desc">
+													2 years
+												</div>
+											</div>
+											<div class="group">
+												<div class="subname">
+													Initial monthly allowance:
+												</div>
+												<div class="desc">
+													40 000 rub
+												</div>
+											</div>
+										</div>
+										<div class="cart-fields_btn">
+											<a href="#" class="page__btn page__btn--curr">
+												<span>
+													More
+												</span>
+											</a>
+										</div>
+										<!-- /.cart-fields_btn -->
+									</div>
+									<!-- /.cart-fields -->
+								</div>
+								<!-- /.bx -->
+								<div class="bx">
+									<div class="cart-fields">
+										<div class="cart-fields_top">
+											<div class="name">
+												Front desk services
+											</div>
+											<!-- /.name -->
+											<div class="btn">
+												<a href="#" class="page__btn page__btn--curr">
+													<span>
+														More
+													</span>
+												</a>
+											</div>
+										</div>
+										<!-- /.cart-fields_top -->
+										
+										<div class="cart-fields_block">
+											<div class="group">
+												<div class="subname">
+													Program duration:
+												</div>
+												<div class="desc">
+													2 years
+												</div>
+											</div>
+											<div class="group">
+												<div class="subname">
+													Initial monthly allowance:
+												</div>
+												<div class="desc">
+													40 000 rub
+												</div>
+											</div>
+										</div>
+										<div class="cart-fields_btn">
+											<a href="#" class="page__btn page__btn--curr">
+												<span>
+													More
+												</span>
+											</a>
+										</div>
+										<!-- /.cart-fields_btn -->
+									</div>
+									<!-- /.cart-fields -->
+								</div>
+								<!-- /.bx -->
+								<div class="bx">
+									<div class="cart-fields">
+										<div class="cart-fields_top">
+											<div class="name">
+												Tiling work
+											</div>
+											<!-- /.name -->
+											<div class="btn">
+												<a href="#" class="page__btn page__btn--curr">
+													<span>
+														More
+													</span>
+												</a>
+											</div>
+										</div>
+										<!-- /.cart-fields_top -->
+										
+										<div class="cart-fields_block">
+											<div class="group">
+												<div class="subname">
+													Program duration:
+												</div>
+												<div class="desc">
+													2 years
+												</div>
+											</div>
+											<div class="group">
+												<div class="subname">
+													Initial monthly allowance:
+												</div>
+												<div class="desc">
+													40 000 rub
+												</div>
+											</div>
+										</div>
+										<div class="cart-fields_btn">
+											<a href="#" class="page__btn page__btn--curr">
+												<span>
+													More
+												</span>
+											</a>
+										</div>
+										<!-- /.cart-fields_btn -->
+									</div>
+									<!-- /.cart-fields -->
+								</div>
+								<!-- /.bx -->
+								<div class="bx">
+									<div class="cart-fields">
+										<div class="cart-fields_top">
+											<div class="name">
+												Installation work
+											</div>
+											<!-- /.name -->
+											<div class="btn">
+												<a href="#" class="page__btn page__btn--curr">
+													<span>
+														More
+													</span>
+												</a>
+											</div>
+										</div>
+										<!-- /.cart-fields_top -->
+										
+										<div class="cart-fields_block">
+											<div class="group">
+												<div class="subname">
+													Program duration:
+												</div>
+												<div class="desc">
+													2 years
+												</div>
+											</div>
+											<div class="group">
+												<div class="subname">
+													Initial monthly allowance:
+												</div>
+												<div class="desc">
+													40 000 rub
+												</div>
+											</div>
+										</div>
+										<div class="cart-fields_btn">
+											<a href="#" class="page__btn page__btn--curr">
+												<span>
+													More
+												</span>
+											</a>
+										</div>
+										<!-- /.cart-fields_btn -->
+									</div>
+									<!-- /.cart-fields -->
+								</div>
+								<!-- /.bx -->
+								<div class="bx">
+									<div class="cart-fields">
+										<div class="cart-fields_top">
+											<div class="name">
+												Production operator
+											</div>
+											<!-- /.name -->
+
+											<div class="btn">
+												<a href="#" class="page__btn page__btn--curr">
+													<span>
+														More
+													</span>
+												</a>
+											</div>
+										</div>
+										<!-- /.cart-fields_top -->
+										
+										<div class="cart-fields_block">
+											<div class="group">
+												<div class="subname">
+													Program duration:
+												</div>
+												<div class="desc">
+													2 years
+												</div>
+											</div>
+											<div class="group">
+												<div class="subname">
+													Initial monthly allowance:
+												</div>
+												<div class="desc">
+													40 000 rub
+												</div>
+											</div>
+										</div>
+										<div class="cart-fields_btn">
+											<a href="#" class="page__btn page__btn--curr">
+												<span>
+													More
+												</span>
+											</a>
+										</div>
+										<!-- /.cart-fields_btn -->
+									</div>
+									<!-- /.cart-fields -->
+								</div>
+								<!-- /.bx -->
+							</div>
+						</div>
+						<!-- /.main-fields_block -->
+					</div>
+				</div>
+				<!-- /.main-fields -->
+
+				<div class="main-adm">
+					<div class="main-adm_block">
+						<div class="page__wrap">
+							<div class="d-flex flex-wrap justify-content-between">
+								<div class="bx">
+									<h2>
+										Admission requirements
+									</h2>
+
+									<div class="list">
+										<ul>
+											<li>
+												Age: <i>18-22 years old females</i>.
+											</li>
+											<li>
+												Citizenship: <i>countries from our <a href="#">list</a></i>.
+											</li>
+											<li>
+												Education: <i>at least 9 classes <span>(secondary school according to the russian educational system).</span></i>
+											</li>
+											<li>
+												Valid international passport.
+											</li>
+											<li>
+												No serious chronic diseases.
+											</li>
+										</ul>
+									</div>
+
+									<div class="desc">
+										Program participants pass a complete medical examination on arrival. The participant will not be allowed to work if a chronic disease is detected.
+									</div>
+
+									<div class="main-adm_btn">
+										<a href="#" class="page__btn page__btn--curr">
+											<span>
+												APPLY
+											</span>
+										</a>
+									</div>
+									<!-- /.main-adm_btn -->
+
+								</div>
+								<div class="bx">
+									<div class="image">
+										<img src="img/img2.png" alt="" class="mw-100 d-block">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /.main-adm_block -->
+				</div>
+				<!-- /.main-adm -->
+
+				<div class="main-step">
+					<div class="page__wrap">
+						<div class="d-flex flex-wrap">
+							<div class="bx">
+								<div class="image js-ban">
+									<img src="img/img3.jpg" alt="" class="mw-100 d-block">
+								</div>
+							</div>
+							<div class="bx">
+								<div class="main-step_cart">
+									<h2>
+										Admission steps
+									</h2>
+									<div class="list">
+										<ul>
+											<li>
+												<div class="icon">
+													<img src="img/icon/id-card_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												<!-- /.icon -->
+												1. Send your cv using this <a href="#">form</a>;
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/bubble-chat_small_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												<!-- /.icon -->
+												2. Learn at least <a href="#">100 words</a> in russian;
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/laptop_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												<!-- /.icon -->
+												3. Complete the business cats simulation;
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/union_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												<!-- /.icon -->
+												4. Pass an online interview;
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/exam-results_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												<!-- /.icon -->
+												5. Sign an offer.
+											</li>
+										</ul>
+									</div>
+									<!-- /.list -->
+								</div>
+								<!-- /.main-step_cart -->
+								<div class="main-step_cart">
+									<h2>
+										<span>Admission</span> deadlines for <i>2023</i>
+									</h2>
+									<div class="list">
+										<ul>
+											<li>
+												<div class="icon">
+													<img src="img/icon/free-icon-new-email.svg" alt="" class="mw-100 d-block">
+												</div>
+												<!-- /.icon -->
+												Application: <i>june 1</i>
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/plane_small_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												<!-- /.icon -->
+												Arrival to russia: <i>august 1</i>
+											</li>
+											<li>
+												<div class="icon">
+													<img src="img/icon/exam-results_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												<!-- /.icon -->
+												Signing the employment contract: <i>september 1</i>
+											</li>
+										</ul>
+									</div>
+									<!-- /.list -->
+								</div>
+								<!-- /.main-step_cart -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.main-step -->
+
+				<div class="main-contact">
+					<div class="page__wrap">
+						<h2>
+							Contact <i>information</i>
+						</h2>
+
+						<div class="main-contact_block">
+							<div class="d-flex flex-wrap">
+								<div class="bx">
+									<div class="main-contact_curr">
+										<div class="ttl">
+											CONTACT ONE OF OUR HR SPECIALISTS:
+										</div>
+
+										<div class="list">
+											<ul>
+												<li>
+													<a href="#">
+														<div class="icon">
+															<img src="img/icon/woman_icon.svg" alt="" class="mw-100 d-block">
+														</div>
+														<div class="desc">
+															<div class="name">
+																Leysan:
+															</div>
+															<div class="email">
+																LSabirov@alabuga.ru
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="icon">
+															<img src="img/icon/male_icon.svg" alt="" class="mw-100 d-block">
+														</div>
+														<div class="desc">
+															<div class="name">
+																Andrey:
+															</div>
+															<div class="email">
+																AVorobev@alabuga.ru
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="icon">
+															<img src="img/icon/boy_icon.svg" alt="" class="mw-100 d-block">
+														</div>
+														<div class="desc">
+															<div class="name">
+																Konstantin:
+															</div>
+															<div class="email">
+																KTrifonov@alabuga.ru
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="icon">
+															<img src="img/icon/girl_icon.svg" alt="" class="mw-100 d-block">
+														</div>
+														<div class="desc">
+															<div class="name">
+																Julia:
+															</div>
+															<div class="email">
+																YMarkova@alabuga.ru
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="icon">
+															<img src="img/icon/boy2_icon.svg" alt="" class="mw-100 d-block">
+														</div>
+														<div class="desc">
+															<div class="name">
+																KIRILL:
+															</div>
+															<div class="email">
+																KRusskikh@alabuga.ru
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="icon">
+															<img src="img/icon/woman2_icon.svg" alt="" class="mw-100 d-block">
+														</div>
+														<div class="desc">
+															<div class="name">
+																Daria:
+															</div>
+															<div class="email">
+																DLevakova@alabuga.ru
+															</div>
+														</div>
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<div class="icon">
+															<img src="img/icon/woman_icon.svg" alt="" class="mw-100 d-block">
+														</div>
+														<div class="desc">
+															<div class="name">
+																Aliya:
+															</div>
+															<div class="email">
+																ABeisekeyeva@alabuga.ru
+															</div>
+														</div>
+													</a>
+												</li>
+											</ul>
+										</div>
+
+									</div>
+									<!-- /.main-contact_curr -->
+								</div>
+								<div class="bx">
+									<div class="main-contact_flex">
+										<div class="item">
+											<div class="main-contact_cart main-contact_gr">
+												<div class="icon">
+													<img src="img/icon/contract_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												<div class="group">
+													<div class="name">
+														Send your cv to: 
+													</div>
+													<a href="#" class="link">
+														alabugastart@alabuga.ru
+													</a>
+												</div>
+											</div>
+											<!-- /.main-contact_cart -->
+										</div>
+										<div class="item">
+											<div class="main-contact_cart main-contact_gr">
+												<div class="icon">
+													<img src="img/icon/cube-3d_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												<div class="group">
+													<div class="name">
+														3D tour:
+													</div>
+													<a href="#" class="link">
+														follow the link
+													</a>
+												</div>
+											</div>
+											<!-- /.main-contact_cart -->
+										</div>
+										<div class="item">
+											<div class="main-contact_cart main-contact_qr">
+												<div class="icon">
+													<img src="img/qr1.png" alt="" class="mw-100 d-block">
+												</div>
+												<div class="group">
+													<div class="name">
+														Register in hr-platform:
+													</div>
+													<a href="#" class="link">
+														https://hr.alabuga.ru
+													</a>
+												</div>
+											</div>
+											<!-- /.main-contact_cart -->
+										</div>
+										<div class="item">
+											<div class="main-contact_cart main-contact_qr">
+												<div class="icon">
+													<img src="img/1r2.png" alt="" class="mw-100 d-block">
+												</div>
+												<div class="group">
+													<div class="name">
+														Check our telegram-bot for faq:
+													</div>
+													<a href="#" class="link">
+														@alabuga_start_bot
+													</a>
+												</div>
+											</div>
+											<!-- /.main-contact_cart -->
+										</div>
+										<div class="item">
+											<div class="main-contact_cart main-contact_play">
+												<div class="icon">
+													<img src="img/icon/youtube_icon.svg" alt="" class="mw-100 d-block">
+												</div>
+												<div class="group">
+													<div class="name">
+														Alabuga sez on youtube:
+													</div>
+													<a href="#" class="link">
+														(18) alabuga sez - youtube
+													</a>
+												</div>
+											</div>
+											<!-- /.main-contact_cart -->
+										</div>
+									</div>
+									<!-- /.main-contact_flex -->
+									<a href="#" class="page__btn page__btn--curr">
+										<span>
+											apply
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.main-contact -->
+				
 			</main>
 			<!-- /.main -->
 			
+			<footer class="footer">
+				<div class="page__wrap">
+					<div class="footer-top">
+						<div class="d-flex flex-wrap justify-content-between">
+							<div class="bx">
+								<div class="coopyright">
+									&copy;ALABUGA START. 2023
+								</div>
+							</div>
+							<div class="bx">
+								<div class="create">
+									<a href="https://ws512.ru/" target="_blank">
+										Site created in <span>Studio 512</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /.footer-top -->
+				</div>
+			</footer>
+			<!-- /.footer -->
 		</div>
 		<!-- /.page -->
+
+		<div class="modal">
+			<div class="modal-overflow"></div>
+			<!-- /.modal-overflow -->
+
+			<div class="modal-container">
+				<a href="#" class="modal-close"></a>
+				<!-- /.modal-close -->
+				<div class="modal-top">
+					<div class="ttl">
+						Heavy equipment operator
+					</div>
+
+					<div class="desc">
+						Program duration: <i>4 years</i>
+					</div>
+					<div class="desc">
+						Initial monthly allowance: <i>40 000 rub</i>
+					</div>
+				</div>
+				<!-- /.modal-top -->
+				<div class="modal-mid">
+					<div class="name">
+						Final results
+					</div>
+					<div class="desc">
+						Russian language proficiency certificates
+					</div>
+					<div class="desc">
+						Professional training certificates
+					</div>
+					<div class="desc">
+						A(iii), b, c, d, e class driving license
+					</div>
+				</div>
+				<!-- /.modal-mid -->
+				<div class="modal-bottom">
+					<div class="stage">
+						<div class="name">
+							Stage 1: general worker
+						</div>
+						<div class="info">
+							Loading, unloading, moving cargo manually or on trolleys.
+							<span>Monthly allowance: <i>40 000 rub.</i></span>
+						</div>
+					</div>
+					<div class="stage">
+						<div class="name">
+							Stage 2: dump truck driver
+						</div>
+						<div class="info">
+							Provision of a car for loading and unloading cargo and control over loading.
+							<span>Monthly allowance: <i>45 000 rub.</i></span>
+						</div>
+					</div>
+					<div class="stage">
+						<div class="name">
+							Stage 3: bulldozer driver
+						</div>
+						<div class="info">
+							Bulldozer control, movement of rock mass, soil, fuel, raw materials in a quarry, leveling the soil.
+							<span>Monthly allowance: <i>50 000 rub.</i></span>
+						</div>
+					</div>
+					<div class="stage">
+						<div class="name">
+							Stage 4: excavator operator
+						</div>
+						<div class="info">
+							Driving a wheeled or caterpillar excavator during construction.
+							<span>Monthly allowance: <i>55 000 rub.</i></span>
+						</div>
+					</div>
+				</div>
+				<!-- /.modal-bottom -->
+				<div class="modal-btn">
+					<a href="#" class="page__btn page__btn--main">
+						<span>
+							Apply
+						</span>
+					</a>
+				</div>
+				<!-- /.modal-btn -->
+			</div>
+			<!-- /.modal-container -->
+		</div>
+		<!-- /.modal -->
+
+		<div class="popup active">
+			<div class="popup-overflow"></div>
+			<!-- /.popup-overflow -->
+			<div class="popup-wrap">
+				<div class="popup-wrap_box">
+					<div class="popup-top">
+						<div class="ttl">
+							Alabuga start <i>application</i>
+						</div>
+						<a href="#" class="popup-close"></a>
+					</div>
+					<!-- /.popup-top -->
+					<form action="" class="form-popup">
+						<fieldset class="active">
+							<div class="name">
+								Attach your photo<sup>*</sup>
+							</div>
+							<div class="desc">
+								<p>
+									Dear candidate, please attach your photo sized 35x45 mm, please.
+								</p>
+								<p>
+									We need a good quality photo with white empty background like in your passport.
+								</p>
+							</div>
+							<div class="form-popup_file js-file">
+								<label for="file">
+									<div class="icon">
+										<img src="img/icon/upload-icon.svg" alt="" class="mw-100 d-block">
+									</div>
+									Upload
+								</label>
+								<input type="file" id="file">
+								<span>
+									1 file up to 20 MB in size
+								</span>
+							</div>
+							<!-- /.form-popup_file -->
+							<div class="form-popup_block">
+								<div class="form-popup_fl">
+									<div class="form-popup_gr w-50">
+										<label>
+											Name<sup>*</sup>
+										</label>
+										<div class="form-popup_inp">
+											<input type="text">
+										</div>
+										<!-- /.form-popup_inp -->
+									</div>
+									<!-- /.form-popup_gr -->
+									<div class="form-popup_gr w-50">
+										<label>
+											Last name<sup>*</sup>
+										</label>
+										<div class="form-popup_inp">
+											<input type="text">
+										</div>
+										<!-- /.form-popup_inp -->
+									</div>
+									<!-- /.form-popup_gr -->
+									<div class="form-popup_gr w-50">
+										<label>
+											Age<sup>*</sup>
+										</label>
+										<div class="form-popup_inp">
+											<input type="text">
+										</div>
+										<!-- /.form-popup_inp -->
+									</div>
+									<!-- /.form-popup_gr -->
+									<div class="form-popup_gr w-50">
+										<label>
+											Date of birth<sup>*</sup>
+										</label>
+										<div class="form-popup_inp">
+											<input type="text" placeholder="MM/DD/YYYY">
+										</div>
+										<!-- /.form-popup_inp -->
+									</div>
+									<!-- /.form-popup_gr -->
+									<div class="form-popup_gr w-50">
+										<label>
+											Citizenship<sup>*</sup>
+										</label>
+										<div class="form-popup_select">
+											<div class="select_wrap">
+												<ul class="default_option js-def-opt">
+													<li>
+														Choose
+													</li>
+												</ul>
+												<div class="select-fix">
+													<div class="select-fix_overflow"></div>
+													<!-- /.select-fix_overflow -->
+													<div class="select-fix_wrap">
+														<div class="select-fix_top">
+															<div class="name">
+																Citizenship
+															</div>
+															<a href="#" class="close"></a>
+														</div>
+														<!-- /.select-fix_top -->
+														<ul class="select_ul">
+															<li>
+																Male
+															</li>
+															<li>
+																Female
+															</li>
+														</ul>
+													</div>
+													<!-- /.select-fix_wrap -->
+												</div>
+												<!-- /.select-fix -->
+											</div>
+										</div>
+										<!-- /.form-popup_select -->
+									</div>
+									<!-- /.form-popup_gr -->
+									<div class="form-popup_gr w-50">
+										<label>
+											Gender<sup>*</sup>
+										</label>
+										<div class="form-popup_select">
+											<div class="select_wrap">
+												<ul class="default_option js-def-opt">
+													<li>
+														Choose
+													</li>
+												</ul>
+												<div class="select-fix">
+													<div class="select-fix_overflow"></div>
+													<!-- /.select-fix_overflow -->
+													<div class="select-fix_wrap">
+														<div class="select-fix_top">
+															<div class="name">
+																Gender
+															</div>
+															<a href="#" class="close"></a>
+														</div>
+														<!-- /.select-fix_top -->
+														<ul class="select_ul">
+															<li>
+																Male
+															</li>
+															<li>
+																Female
+															</li>
+														</ul>
+													</div>
+													<!-- /.select-fix_wrap -->
+												</div>
+												<!-- /.select-fix -->
+											</div>
+										</div>
+										<!-- /.form-popup_select -->
+									</div>
+									<!-- /.form-popup_gr -->
+									<div class="form-popup_gr w-50">
+										<label>
+											Your mobile phone<sup>*</sup>
+										</label>
+										<div class="form-popup_inp">
+											<input type="text" placeholder="Example: +123 (456) 789 01 23">
+										</div>
+										<!-- /.form-popup_inp -->
+									</div>
+									<!-- /.form-popup_gr -->
+									<div class="form-popup_gr w-50">
+										<label>
+											E-mail<sup>*</sup>
+										</label>
+										<div class="form-popup_inp">
+											<input type="text" placeholder="Example: email@email.com">
+										</div>
+										<!-- /.form-popup_inp -->
+									</div>
+									<!-- /.form-popup_gr -->
+								</div>
+								<!-- /.form-popup_fl -->
+							</div>
+							<!-- /.form-popup_block -->
+							<div class="form-popup_btn">
+								<a href="#" class="btn btn-curr next">
+									Next
+								</a>
+							</div>
+							<!-- /.form-popup_btn -->
+						</fieldset>
+						<fieldset>
+							<div class="name">
+								Rate how interested you are in our programme fields<sup>*</sup>
+							</div>
+							<div class="desc">
+								<p>
+									Please note, that your preference does not guarantee the field assigned to you
+								</p>
+							</div>
+							<div class="form-popup_block">
+								<div class="form-popup_fl">
+									<div class="form-popup_gr w-50">
+										<label>
+											Logistics
+										</label>
+										<div class="form-popup_select">
+											<div class="select_wrap">
+												<ul class="default_option js-def-opt">
+													<li>
+														Choose
+													</li>
+												</ul>
+												<div class="select-fix">
+													<div class="select-fix_overflow"></div>
+													<!-- /.select-fix_overflow -->
+													<div class="select-fix_wrap">
+														<div class="select-fix_top">
+															<div class="name">
+																Logistics
+															</div>
+															<a href="#" class="close"></a>
+														</div>
+														<!-- /.select-fix_top -->
+														<ul class="select_ul">
+															<li>
+																Male
+															</li>
+															<li>
+																Female
+															</li>
+														</ul>
+													</div>
+													<!-- /.select-fix_wrap -->
+												</div>
+												<!-- /.select-fix -->
+											</div>
+										</div>
+										<!-- /.form-popup_select -->
+									</div>
+									<!-- /.form-popup_gr -->
+									<div class="form-popup_gr w-50">
+										<label>
+											Service & hospitality
+										</label>
+										<div class="form-popup_select">
+											<div class="select_wrap">
+												<ul class="default_option js-def-opt">
+													<li>
+														Choose
+													</li>
+												</ul>
+												<div class="select-fix">
+													<div class="select-fix_overflow"></div>
+													<!-- /.select-fix_overflow -->
+													<div class="select-fix_wrap">
+														<div class="select-fix_top">
+															<div class="name">
+																Service & hospitality
+															</div>
+															<a href="#" class="close"></a>
+														</div>
+														<!-- /.select-fix_top -->
+														<ul class="select_ul">
+															<li>
+																Male
+															</li>
+															<li>
+																Female
+															</li>
+														</ul>
+													</div>
+													<!-- /.select-fix_wrap -->
+												</div>
+												<!-- /.select-fix -->
+											</div>
+										</div>
+										<!-- /.form-popup_select -->
+									</div>
+									<!-- /.form-popup_gr -->
+									<div class="form-popup_gr w-50">
+										<label>
+											Catering industry (food service)
+										</label>
+										<div class="form-popup_select">
+											<div class="select_wrap">
+												<ul class="default_option js-def-opt">
+													<li>
+														Choose
+													</li>
+												</ul>
+												<div class="select-fix">
+													<div class="select-fix_overflow"></div>
+													<!-- /.select-fix_overflow -->
+													<div class="select-fix_wrap">
+														<div class="select-fix_top">
+															<div class="name">
+																Catering industry (food service)
+															</div>
+															<a href="#" class="close"></a>
+														</div>
+														<!-- /.select-fix_top -->
+														<ul class="select_ul">
+															<li>
+																Male
+															</li>
+															<li>
+																Female
+															</li>
+														</ul>
+													</div>
+													<!-- /.select-fix_wrap -->
+												</div>
+												<!-- /.select-fix -->
+											</div>
+										</div>
+										<!-- /.form-popup_select -->
+									</div>
+									<!-- /.form-popup_gr -->
+									<div class="form-popup_gr w-50">
+										<label>
+											Production operator
+										</label>
+										<div class="form-popup_select">
+											<div class="select_wrap">
+												<ul class="default_option js-def-opt">
+													<li>
+														Choose
+													</li>
+												</ul>
+												<div class="select-fix">
+													<div class="select-fix_overflow"></div>
+													<!-- /.select-fix_overflow -->
+													<div class="select-fix_wrap">
+														<div class="select-fix_top">
+															<div class="name">
+																Production operator
+															</div>
+															<a href="#" class="close"></a>
+														</div>
+														<!-- /.select-fix_top -->
+														<ul class="select_ul">
+															<li>
+																Male
+															</li>
+															<li>
+																Female
+															</li>
+														</ul>
+													</div>
+													<!-- /.select-fix_wrap -->
+												</div>
+												<!-- /.select-fix -->
+											</div>
+										</div>
+										<!-- /.form-popup_select -->
+									</div>
+									<!-- /.form-popup_gr -->
+								</div>
+								<!-- /.form-popup_fl -->
+							</div>
+							<!-- /.form-popup_block -->
+							<div class="form-popup_box">
+								<div class="form-popup_gr">
+									<label>
+										How did you find us?<sup>*</sup>
+									</label>
+									<div class="form-popup_select">
+										<div class="select_wrap">
+											<ul class="default_option js-def-opt">
+												<li>
+													Choose
+												</li>
+											</ul>
+											<div class="select-fix">
+												<div class="select-fix_overflow"></div>
+												<!-- /.select-fix_overflow -->
+												<div class="select-fix_wrap">
+													<div class="select-fix_top">
+														<div class="name">
+															Choose
+														</div>
+														<a href="#" class="close"></a>
+													</div>
+													<!-- /.select-fix_top -->
+													<ul class="select_ul">
+														<li>
+															Male
+														</li>
+														<li>
+															Female
+														</li>
+													</ul>
+												</div>
+												<!-- /.select-fix_wrap -->
+											</div>
+											<!-- /.select-fix -->
+										</div>
+									</div>
+									<!-- /.form-popup_select -->
+								</div>
+								<!-- /.form-popup_gr -->
+								<div class="box">
+									<div class="name">
+										Tell us about yourself
+									</div>
+									<div class="desc">
+										Achievements, interests, hobbies, goals, for the future and everything you consider necessary to share
+									</div>
+									<div class="form-popup_gr">
+										<div class="form-popup_inp">
+											<textarea name="message"></textarea>
+										</div>
+										<!-- /.form-popup_inp -->
+									</div>
+									<!-- /.form-popup_gr -->
+								</div>
+	
+								<div class="box">
+									<div class="name">
+										Why should we select you?
+									</div>
+									<div class="desc">
+										Tell us what advantages you have over other candidates
+									</div>
+									<div class="form-popup_gr">
+										<div class="form-popup_inp">
+											<textarea name="message"></textarea>
+										</div>
+										<!-- /.form-popup_inp -->
+									</div>
+									<!-- /.form-popup_gr -->
+								</div>
+	
+								<div class="box">
+									<div class="name">
+										Yor telegram<sup>*</sup>
+									</div>
+									<div class="desc">
+										<p>
+											telegram is required to stay informed about latest news and anouncements.
+										</p>
+										<p>
+											Join our channel @AlabugaStart in Telegram and keep intouch.
+										</p>
+									</div>
+									<div class="group">
+										Download: <a href="#">App Store</a><a href="#">Google Play</a>
+									</div>
+									<div class="form-popup_gr">
+										<div class="form-popup_inp">
+											<input type="text">
+										</div>
+										<!-- /.form-popup_inp -->
+									</div>
+									<!-- /.form-popup_gr -->
+								</div>
+							</div>
+							<!-- /.form-popup_box -->
+							<div class="form-popup_btn">
+								<button class="btn btn-curr" type="submit">
+									Send
+								</button>
+								<a href="#" class="btn btn-black previous">
+									Back
+								</a>
+							</div>
+							<!-- /.form-popup_btn -->
+						</fieldset>
+					</form>
+					<!-- /.form-popup -->
+				</div>
+				<!-- /.popup-wrap_box -->
+			</div>
+			<!-- /.popup-wrap -->
+		</div>
+		<!-- /.popup -->
 		
 		<script src="js/script.js"></script>
 	</body>
