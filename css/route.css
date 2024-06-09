@@ -1,0 +1,102 @@
+.route {
+  padding-top: 1.25rem;
+  padding-bottom: 3.125rem;
+}
+
+.route-block {
+  padding-top: 3.125rem;
+}
+
+.route-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  row-gap: 2.5rem;
+}
+
+.route-box .d-flex {
+  row-gap: 2.5rem;
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
+
+.route-box .bx {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33333%;
+          flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+
+.route-kit {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90.07deg, #D1CDD0 3.4%, #DAD8DA 29.44%);
+  padding-left: 5rem;
+  padding-right: 3.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 208px;
+  border-radius: 6.25rem;
+  -webkit-border-radius: 6.25rem;
+  -moz-border-radius: 6.25rem;
+  -ms-border-radius: 6.25rem;
+  -o-border-radius: 6.25rem;
+}
+
+.route-kit .img {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.route-kit_bx {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 63%;
+          flex: 0 0 63%;
+  max-width: 63%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.route-kit_bx .name {
+  color: #000;
+  font-weight: 600;
+  font-size: 1.5rem;
+  max-width: 373px;
+}
+
+.route-kit_bx .page-btn {
+  font-size: 0.8125rem;
+  min-width: 227px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+}
+/*# sourceMappingURL=route.css.map */

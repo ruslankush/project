@@ -1,0 +1,73 @@
+.article {
+  padding-top: 1.25rem;
+  padding-bottom: 2.5rem;
+}
+
+.article-box {
+  max-width: 969px;
+  margin: 0 auto;
+}
+
+.article-box_block {
+  padding-top: 1.875rem;
+}
+
+.article-box .date {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #CA9F3C;
+  margin-top: 0.625rem;
+}
+
+.article-box .txt {
+  margin-top: 1.5rem;
+}
+
+.article-slider {
+  margin-left: -0.625rem;
+  margin-right: -0.652rem;
+}
+
+.article-slider .item {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.article-slider .img {
+  position: relative;
+  border-radius: 4.375rem;
+  -webkit-border-radius: 4.375rem;
+  -moz-border-radius: 4.375rem;
+  -ms-border-radius: 4.375rem;
+  -o-border-radius: 4.375rem;
+  overflow: hidden;
+}
+
+.article-slider .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.article-slider .arrow {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+}
+
+.article-slider .arrow-next {
+  right: 1.875rem;
+}
+
+.article-slider .arrow-prev {
+  left: 1.875rem;
+}
+/*# sourceMappingURL=article.css.map */

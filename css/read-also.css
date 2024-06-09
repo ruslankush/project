@@ -1,0 +1,41 @@
+.read-also {
+  padding-top: 2.5rem;
+}
+
+.read-also.indent {
+  padding-bottom: 5rem;
+}
+
+.read-also_top h2 {
+  display: inline-block;
+  font-size: 2.1875rem;
+  margin-right: 1.25rem;
+}
+
+.read-also_block {
+  padding-top: 3.125rem;
+}
+
+.read-also_arr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+}
+
+.read-also_slider {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.read-also_slider .item {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+/*# sourceMappingURL=read-also.css.map */

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACJ,WAAW,EAAE,OAAO;EACpB,cAAc,EAAE,QAAQ;CAoB3B;;AAlBI,AAAD,aAAO,CAAC;EACJ,WAAW,EAAE,MAAM;CAetB;;AAhBA,AAGG,aAHG,CAGH,OAAO,CAAC;EACJ,WAAW,EAAE,UAAU;EACvB,YAAY,EAAE,UAAU;EACxB,OAAO,EAAE,MAAM;CAClB;;AAPJ,AASG,aATG,CASH,GAAG,CAAC;EACA,YAAY,EAAE,SAAS;EACvB,aAAa,EAAE,SAAS;EACxB,IAAI,EAAE,CAAC,CAAC,CAAC,CAAC,GAAiB;EAC3B,SAAS,EAAE,GAAiB;CAC/B",
+    "sources": [
+        "../scss/awards.scss",
+        "../scss/_mixin.scss"
+    ],
+    "names": [],
+    "file": "awards.css"
+}

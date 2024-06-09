@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAC;EACT,WAAW,EAAE,QAAQ;EACrB,cAAc,EAAE,QAAQ;CAU3B;;AAZD,AAII,YAJQ,AAIP,OAAO,CAAC;EACL,cAAc,EAAE,OAAO;CAC1B;;AAEA,AAAD,kBAAO,CAAC;EACJ,WAAW,EAAE,QAAQ;CACxB",
+    "sources": [
+        "../scss/information.scss",
+        "../scss/_mixin.scss"
+    ],
+    "names": [],
+    "file": "information.css"
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACL,QAAQ,EAAE,QAAQ;EAClB,WAAW,EAAE,QAAQ;EACrB,cAAc,EAAE,IAAI;CAMvB;;AAJI,AAAD,cAAO,CAAC;EACJ,WAAW,EAAE,QAAQ;CACxB",
+    "sources": [
+        "../scss/parents.scss",
+        "../scss/_mixin.scss"
+    ],
+    "names": [],
+    "file": "parents.css"
+}

@@ -1,0 +1,13 @@
+.information {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.information.indent {
+  padding-bottom: 6.25rem;
+}
+
+.information-block {
+  padding-top: 1.875rem;
+}
+/*# sourceMappingURL=information.css.map */

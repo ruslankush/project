@@ -1,0 +1,91 @@
+.contact {
+  padding-top: 1.25rem;
+  padding-bottom: 6.25rem;
+}
+
+.contact-block {
+  padding-top: 3.125rem;
+}
+
+.contact-block .address .subname, .contact-block .phone .subname, .contact-block .work-time .subname, .contact-block .email .subname {
+  color: #676767;
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+.contact-block .address .icon, .contact-block .phone .icon, .contact-block .work-time .icon, .contact-block .email .icon {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 2.9375rem;
+  height: 2.9375rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+  background-color: #CA9F3C;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.contact-block .address {
+  position: relative;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  padding-left: 3.875rem;
+}
+
+.contact-block .phone a {
+  position: relative;
+  padding-left: 3.875rem;
+  font-weight: 600;
+  font-size: 1.0625rem;
+}
+
+.contact-block .work-time {
+  position: relative;
+  padding-left: 3.875rem;
+  font-weight: 600;
+  color: #000;
+  font-size: 1.0625rem;
+}
+
+.contact-block .email {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding-left: 3.875rem;
+  color: #000;
+  font-weight: 600;
+  font-size: 1.0625rem;
+}
+
+.contact-map {
+  position: relative;
+  margin-top: 3.75rem;
+  overflow: hidden;
+  border-radius: 4.375rem;
+  -webkit-border-radius: 4.375rem;
+  -moz-border-radius: 4.375rem;
+  -ms-border-radius: 4.375rem;
+  -o-border-radius: 4.375rem;
+  height: 478px;
+}
+
+.contact-map .maps {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=contact.css.map */
